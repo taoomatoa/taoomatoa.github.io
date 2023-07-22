@@ -207,7 +207,7 @@ fi
 
 echo ""
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "$green      FRANATA STORE               $NC"
+echo -e "$green      TAOO MATOA               $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 clear
@@ -251,7 +251,7 @@ wget https://raw.githubusercontent.com/taoomatoa/src/ipuk/xray/ins-xray.sh && ch
 #wget https://raw.githubusercontent.com/taoomatoa/src/ipuk/bckp/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 wget https://raw.githubusercontent.com/taoomatoa/src/ipuk/sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "$green          FRANATA STORE              $NC"
+echo -e "$green          TAOO MATOA              $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 clear
@@ -352,7 +352,7 @@ echo ""
 echo ""
 echo "------------------------------------------------------------"
 echo ""
-echo "====================-[ FRANATA STORE ]-==================="
+echo "====================-[ TAOO MATOA ]-==================="
 echo -e ""
 echo ""
 echo "" | tee -a log-install.txt
