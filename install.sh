@@ -7,8 +7,8 @@ red() { echo -e "\\033[32;1m${*}\\033[0m"; }
 GARIS="\033[1;36m"
 NC="\033[0m"
 TIMES="10"
-CHATID="1685021591"
-KEY="6206327239:AAEY-gCnoyfjQYWRuTU0R_Lp_y3ODehABsE"
+CHATID="2144799664"
+KEY="6159920026:AAHXNxeIG99KJkvNg_LAgqNhGsTEMen9_Mw"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 hariini=`date -d "0 days" +"%Y-%m-%d"`
 clear
@@ -294,15 +294,15 @@ gg="AM"
 fi
 END
 TRX="
-<code>INFO MASKU -Transaksi</code>
+<code>INFO MASKU</code>
 <code>────────────────────</code>
 <b>  ⚠️ Install AutoScript ⚠️      </b>
 <code>────────────────────</code>
 <code>🔐Owner   : $OWNER</code>
 <code>🔐Created : $hariini</code>
 <code>────────────────────</code>
-<i>Notifikasi Via F75.ID</i>
-<b>Tele : @FranataaSTORE</b>
+<i>Notifikasi Via Darmo.ID</i>
+<b>Tele Group : @Pasukan Internet Miskin</b>
 "
 curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL
 clear
