@@ -314,7 +314,7 @@ else
 echo -e "${EROR} Please Choose 1 & 2 Only !"
 exit 1
 fi
-
+}
 clear
 #GANTI PASSWORD DEFAULT
 function password_default() {
@@ -355,7 +355,7 @@ function password_default() {
 "
 
    curl -s --max-time $TIME -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
-
+}
 
 clear
 echo -e "┌─────────────────────────────────────────┐"
