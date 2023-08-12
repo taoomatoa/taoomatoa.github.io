@@ -362,56 +362,56 @@ echo -e "┌──────────────────────�
 echo -e " \E[41;1;39m           >>> Install Sistem <<<          \E[0m$NC"
 echo -e "└─────────────────────────────────────────┘"
 sleep 1
-wget -q https://github.com/taoomatoa/src/tools/arzsource.sh && chmod +x arzsource.sh && ./arzsource.sh
+wget -q https://raw.githubusercontent.com/taoomatoa/src/ipuk/tools/arzsource.sh && chmod +x arzsource.sh && ./arzsource.sh
 echo -e "┌─────────────────────────────────────────┐"
 echo -e " \E[41;1;39m          >>> Install SSH / WS <<<        \E[0m$NC"
 echo -e "└─────────────────────────────────────────┘"
 sleep 1
-wget -q https://github.com/taoomatoa/src/tools/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
+wget -q https://raw.githubusercontent.com/taoomatoa/src/ipuk/tools/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
 echo -e "┌─────────────────────────────────────────┐"
 echo -e " \E[41;1;39m            >>> Install Xray <<<         \E[0m$NC"
 echo -e "└─────────────────────────────────────────┘"
 sleep 1
-wget -q https://github.com/taoomatoa/src/tools/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
+wget -q https://raw.githubusercontent.com/taoomatoa/src/ipuk/tools/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
 echo -e "┌─────────────────────────────────────────┐"
 echo -e " \E[41;1;39m            >>> Install BR <<<           \E[0m$NC"
 echo -e "└─────────────────────────────────────────┘"
 sleep 1
-wget -q https://github.com/taoomatoa/src/backup/set-br.sh && chmod +x set-br.sh && ./set-br.sh
+wget -q https://raw.githubusercontent.com/taoomatoa/src/ipuk/backup/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 echo -e "┌─────────────────────────────────────────┐"
 echo -e " \E[41;1;39m            >>> Install slowdns <<<           \E[0m$NC"
 echo -e "└─────────────────────────────────────────┘"
 sleep 1
 wget https://raw.githubusercontent.com/Andyvpn/Autoscript-by-azi/main/autoscript-ssh-slowdns-main/slowdns.sh && chmod +x slowdns.sh && ./slowdns.sh
 echo -e "${GREEN}Download Data${NC}"
-wget -q -O /usr/bin/usernew "https://github.com/taoomatoa/src/usernew.sh"
-wget -q -O /usr/bin/add-ws "https://github.com/taoomatoa/src/add-ws.sh"
-wget -q -O /usr/bin/add-ssws "https://github.com/taoomatoa/src/add-ssws.sh"
-wget -q -O /usr/bin/add-vless "https://github.com/taoomatoa/src/add-vless.sh"
-wget -q -O /usr/bin/add-tr "https://github.com/taoomatoa/src/add-tr.sh"
-wget -q -O /usr/bin/autoreboot "https://github.com/taoomatoa/src/options/autoreboot.sh"
-wget -q -O /usr/bin/restart "https://github.com/taoomatoa/src/options/restart.sh"
-wget -q -O /usr/bin/tendang "https://github.com/taoomatoa/src/options/tendang.sh"
-wget -q -O /usr/bin/clearlog "https://github.com/taoomatoa/src/options/clearlog.sh"
-wget -q -O /usr/bin/running "https://github.com/taoomatoa/src/options/running.sh"
-wget -q -O /usr/bin/speedtest "https://github.com/taoomatoa/src/tools/speedtest_cli.py"
-wget -q -O /usr/bin/cek-bandwidth "https://github.com/taoomatoa/src/options/cek-bandwidth.sh"
-wget -q -O /usr/bin/limitspeed "https://github.com/taoomatoa/src/options/limitspeed.sh"
-wget -q -O /usr/bin/menu-vless "https://github.com/taoomatoa/src/menu/menu-vless.sh"
-wget -q -O /usr/bin/menu-vmess "https://github.com/taoomatoa/src/menu/menu-vmess.sh"
-wget -q -O /usr/bin/menu-ss "https://github.com/taoomatoa/src/menu/menu-ss.sh"
-wget -q -O /usr/bin/menu-trojan "https://github.com/taoomatoa/src/menu/menu-trojan.sh"
-wget -q -O /usr/bin/menu-ssh "https://github.com/taoomatoa/src/menu/menu-ssh.sh"
-wget -q -O /usr/bin/menu-backup "https://github.com/taoomatoa/src/menu/menu-backup.sh"
-wget -q -O /usr/bin/menu "https://github.com/taoomatoa/src/menu/menu.sh"
-wget -q -O /usr/bin/webmin "https://github.com/taoomatoa/src/options/webmin.sh"
-wget -q -O /usr/bin/xp "https://github.com/taoomatoa/src/xp.sh"
-wget -q -O /usr/bin/update "https://github.com/taoomatoa/src/options/update.sh"
-wget -q -O /usr/bin/addhost "https://github.com/taoomatoa/src/menu/addhost.sh"
-wget -q -O /usr/bin/certxray "https://github.com/taoomatoa/src/menu/crt.sh"
-wget -q -O /usr/bin/menu-set "https://github.com/taoomatoa/src/menu/menu-set.sh"
-wget -q -O /usr/bin/info "https://github.com/taoomatoa/src/options/info.sh"
-wget -q -O /usr/bin/infoserv "https://github.com/taoomatoa/src/options/infoserv.sh"
+wget -q -O /usr/bin/usernew "https://raw.githubusercontent.com/taoomatoa/src/ipuk/usernew.sh"
+wget -q -O /usr/bin/add-ws "https://raw.githubusercontent.com/taoomatoa/src/ipuk/add-ws.sh"
+wget -q -O /usr/bin/add-ssws "https://raw.githubusercontent.com/taoomatoa/src/ipuk/add-ssws.sh"
+wget -q -O /usr/bin/add-vless "https://raw.githubusercontent.com/taoomatoa/src/ipuk/add-vless.sh"
+wget -q -O /usr/bin/add-tr "https://raw.githubusercontent.com/taoomatoa/src/ipuk/add-tr.sh"
+wget -q -O /usr/bin/autoreboot "https://raw.githubusercontent.com/taoomatoa/src/ipuk/options/autoreboot.sh"
+wget -q -O /usr/bin/restart "https://raw.githubusercontent.com/taoomatoa/src/ipuk/options/restart.sh"
+wget -q -O /usr/bin/tendang "https://raw.githubusercontent.com/taoomatoa/src/ipuk/options/tendang.sh"
+wget -q -O /usr/bin/clearlog "https://raw.githubusercontent.com/taoomatoa/src/ipuk/options/clearlog.sh"
+wget -q -O /usr/bin/running "https://raw.githubusercontent.com/taoomatoa/src/ipuk/options/running.sh"
+wget -q -O /usr/bin/speedtest "https://raw.githubusercontent.com/taoomatoa/src/ipuk/tools/speedtest_cli.py"
+wget -q -O /usr/bin/cek-bandwidth "https://raw.githubusercontent.com/taoomatoa/src/ipuk/options/cek-bandwidth.sh"
+wget -q -O /usr/bin/limitspeed "https://raw.githubusercontent.com/taoomatoa/src/ipuk/options/limitspeed.sh"
+wget -q -O /usr/bin/menu-vless "https://raw.githubusercontent.com/taoomatoa/src/ipuk/menu/menu-vless.sh"
+wget -q -O /usr/bin/menu-vmess "https://raw.githubusercontent.com/taoomatoa/src/ipuk/menu/menu-vmess.sh"
+wget -q -O /usr/bin/menu-ss "https://raw.githubusercontent.com/taoomatoa/src/ipuk/menu/menu-ss.sh"
+wget -q -O /usr/bin/menu-trojan "https://raw.githubusercontent.com/taoomatoa/src/ipuk/menu/menu-trojan.sh"
+wget -q -O /usr/bin/menu-ssh "https://raw.githubusercontent.com/taoomatoa/src/ipuk/menu/menu-ssh.sh"
+wget -q -O /usr/bin/menu-backup "https://raw.githubusercontent.com/taoomatoa/src/ipuk/menu/menu-backup.sh"
+wget -q -O /usr/bin/menu "https://raw.githubusercontent.com/taoomatoa/src/ipuk/menu/menu.sh"
+wget -q -O /usr/bin/webmin "https://raw.githubusercontent.com/taoomatoa/src/ipuk/options/webmin.sh"
+wget -q -O /usr/bin/xp "https://raw.githubusercontent.com/taoomatoa/src/ipuk/xp.sh"
+wget -q -O /usr/bin/update "https://raw.githubusercontent.com/taoomatoa/src/ipuk/options/update.sh"
+wget -q -O /usr/bin/addhost "https://raw.githubusercontent.com/taoomatoa/src/ipuk/menu/addhost.sh"
+wget -q -O /usr/bin/certxray "https://raw.githubusercontent.com/taoomatoa/src/ipuk/menu/crt.sh"
+wget -q -O /usr/bin/menu-set "https://raw.githubusercontent.com/taoomatoa/src/ipuk/menu/menu-set.sh"
+wget -q -O /usr/bin/info "https://raw.githubusercontent.com/taoomatoa/src/ipuk/options/info.sh"
+wget -q -O /usr/bin/infoserv "https://raw.githubusercontent.com/taoomatoa/src/ipuk/options/infoserv.sh"
 chmod +x /usr/bin/usernew
 chmod +x /usr/bin/add-ws
 chmod +x /usr/bin/add-ssws
@@ -477,7 +477,7 @@ if [ ! -f "/etc/log-create-user.log" ]; then
 echo "Log All Account " > /etc/log-create-user.log
 fi
 history -c
-serverV=$( curl -sS https://github.com/taoomatoa/src/version  )
+serverV=$( curl -sS https://raw.githubusercontent.com/taoomatoa/src/ipuk/version  )
 echo $serverV > /opt/.ver
 aureb=$(cat /home/re_otm)
 b=11
