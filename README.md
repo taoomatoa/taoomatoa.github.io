@@ -1,5 +1,4 @@
 # SCRIPT XRAY PINK
-</p> 
 
 <h2 align="center"> Supported Linux Distribution</h2>
 
