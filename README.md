@@ -71,4 +71,3 @@ sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.di
 - Additional Features (Optional) skipper (NOTE) install after [Step Install] is complete
 - Optional [install OpenVPN + Slowdns +](https://github.com/taoomatoa/AutoScript/tree/master/udp-custom) UDP-Custom by [Exe302](https://gitlab.com/Exe302) + Slowdns by [SL](https://github.com/fisabiliyusri)
 - Optional [install Panel Webmin + ADS Block](https://github.com/taoomatoa/AutoScript/tree/master/helium) Helium version 3.0 by [Abi Darwish](https://github.com/abidarwish)
-- Optional [install Bot Telegram Xolpanel](https://github.com/taoomatoa/AutoScript/tree/master/bot%20telegram%20panel) by [XolvaID](https://github.com/XolvaID)
