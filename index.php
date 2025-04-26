@@ -13,7 +13,7 @@ if (isset($_POST['ip_submit'])) {
     $ip = $_POST['ip'];
 
     // Baca data izin yang sudah ada
-    $file = '/home/franata775/vip/izin';
+    $file = 'https://raw.githubusercontent.com/taoomatoa/izinvps/main/ip';
     $izinData = file($file, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
 
     // Buat array baru untuk menampung data yang akan disimpan
