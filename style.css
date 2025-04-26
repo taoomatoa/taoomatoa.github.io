@@ -1,0 +1,88 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+    display: flex; /* Menjadikan body kontainer flex */
+    align-items: center; /* Menengahkan secara vertikal */
+    justify-content: center; /* Menengahkan secara horizontal */
+    min-height: 100vh; /* Mengisi tinggi layar penuh */
+}
+
+h1 {
+    text-align: center;
+    color: #3C91E6; /* Menghapus margin di atas h1 */
+}
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #3C91E6;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: #f5f5f5; /* Warna yang lebih lembut */
+    font-family: inherit;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #3C91E6;
+}
+
+#saveButton {
+    background-color: #3C91E6;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px; /* Spasi antar huruf */
+}
+
+#saveButton:hover {
+    background-color: #45a049;
+}
+
+#statusMessage {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #3C91E6;
+}
+
+#background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    filter: brightness(0.10); /* Ubah nilai kecerahan sesuai keinginan Anda */
+    z-index: -1;
+}
